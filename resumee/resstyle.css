@@ -1,0 +1,297 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+body{
+    
+   justify-items: center;
+}
+#form{
+    
+    width:800px;
+    height:121vh;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    display: flex;
+    border: 6px solid black; 
+   
+
+}
+.editbtn{
+    margin-top: 18px;
+    height: 60px;
+    width: 120px;
+    background-color: rgb(61, 166, 207);
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+    color:white;
+    border: 6px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+     &:hover{
+    background-color: rgb(31, 151, 187);
+    }
+}
+
+.pdfbtn{
+   margin-top: 18px;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(61, 166, 207);
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+    color:white;
+    border: 6px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+     &:hover{
+    background-color: rgb(31, 151, 187);
+    }
+}
+
+
+.copylinkbtn{
+    margin-top: 18px;
+     height: 60px;
+     width: 150px;
+     background-color: rgb(61, 166, 207);
+     font-size: 20px;
+     font-weight: bold;
+     font-family:cursive;
+     color:white;
+     border: 6px solid black;
+     border-radius: 20px;
+     cursor: pointer;
+      &:hover{
+     background-color: rgb(31, 151, 187);
+     }
+ }
+ 
+
+/* Side Section Styling Start Here */
+img{
+ border-radius: 70px;
+ height:170px;
+ width:150px;
+}
+
+#sideSection{
+    height:120vh;
+    width:40%;
+    background-color: rgb(69, 146, 177);
+    padding-left: 20px;
+   
+    color:white;
+    padding-top: 40px;
+    border-radius: 40px;
+}
+#sideSection h1{
+    font-size: 28px;
+    text-decoration: underline black;
+    font-weight: bold;
+}
+#sideSection h2{
+    font-size: 20px;
+
+}
+#sideSection .heading{
+    font-size: 30px;
+    color:black;
+    padding-top: 20px;
+}
+#sideSection .subHeading{
+    padding-top: 10px;
+    font-size: 23px;
+}
+#sideSection p{
+    font-size: 17px;
+    padding-top: 5px;
+}
+/* Side Section Styling Ends Here */
+
+
+/* Main Section Styling Start Here */
+#mainSection #mainHeading{
+    color:  rgb(69, 146, 177);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+#mainSection{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#mainSection .heading{
+    font-size: 25px;
+    text-decoration: underline  rgb(69, 146, 177);
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+#mainSection p{ 
+    font-size: 20px;
+    padding-top: 20px;
+}
+#mainSection{
+  height:100%;   
+}
+/* Main Section Styling Ends Here */
+
+
+
+
+
+
+
+
+/* Media Query Style Start Here */
+@media(max-width:615px){
+ 
+    
+
+    #form{
+    
+        width:380px;
+        height:200vh;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        display: flex;
+        border: 2px solid black;
+       display: flex;
+       flex-direction: column;
+    
+    }
+    
+    /* Side Section Styling Start Here */
+    img{
+     border-radius: 70px;
+     height:160px;
+     width:130px;
+    }
+    
+    #sideSection{ 
+        height:113vh;
+        width: 100%;
+        background-color:  rgb(69, 146, 177);
+        padding: 40px;
+        color:white;
+        border-radius: 20px;
+    }
+    #sideSection h1{
+        font-size: 27px;
+        text-decoration: underline black;
+        font-weight: bold;
+    }
+    #sideSection h2{
+        font-size: 22px;
+    
+    }
+    #sideSection .heading{
+        font-size: 30px;
+        color:black;
+        padding-top: 20px;
+    }
+    #sideSection .subHeading{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    #sideSection p{
+        font-size: 17px;
+        padding-top: 5px;
+    }
+    /* Side Section Styling Ends Here */
+    
+    
+    /* Main Section Styling Start Here */
+    #mainSection #mainHeading{
+        color:  rgb(69, 146, 177);
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    #mainSection{
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    #mainSection .heading{
+        font-size: 25px;
+        text-decoration: underline  rgb(69, 146, 177);
+        font-weight: 700;
+        padding-top: 10px;
+    }
+    
+    #mainSection p{ 
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    #mainSection{
+      height:100%;   
+    }
+    /* Main Section Styling Ends Here */
+    
+
+    
+    .editbtn{
+        margin-top: 18px;
+        height: 40px;
+        width: 100px;
+        background-color: rgb(61, 166, 207);
+        font-size: 16px;
+        font-weight: bold;
+        font-family:cursive;
+        color:white;
+        border: 6px solid black;
+        border-radius: 20px;
+        cursor: pointer;
+         &:hover{
+        background-color:  rgb(69, 146, 177);
+        }
+    }
+    
+    .pdfbtn{
+       margin-top: 18px;
+        height: 40px;
+        width: 120px;
+        background-color: rgb(61, 166, 207);
+        font-size: 16px;
+        font-weight: bold;
+        font-family:cursive;
+        color:white;
+        border: 6px solid black;
+        border-radius: 20px;
+        cursor: pointer;
+         &:hover{
+        background-color:  rgb(69, 146, 177);
+        }
+    }
+    
+    
+    .copylinkbtn{
+        margin-top: 18px;
+         height: 40px;
+         width: 110px;
+         background-color: rgb(61, 166, 207);
+         font-size: 16px;
+         font-weight: bold;
+         font-family:cursive;
+         color:white;
+         border: 6px solid black;
+         border-radius: 20px;
+         cursor: pointer;
+          &:hover{
+         background-color:  rgb(69, 146, 177);
+         }
+     }
+     
+
+
+}
